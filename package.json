@@ -1,0 +1,28 @@
+{
+  "name": "@hexlet/frontend-project-44",
+  "version": "1.0.0",
+  "description": "[![Actions Status](https://github.com/stasiq/frontend-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/stasiq/frontend-project-44/actions)",
+  "main": "index.js",
+  "bin": {
+    "brain-games": "bin/brain-games.js"
+  },
+  "type": "module",
+  "scripts": {
+    "make": "make",
+    "build": "make build",
+    "test": "make test",
+    "clean": "make clean"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stasiq/frontend-project-44.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stasiq/frontend-project-44/issues"
+  },
+  "homepage": "https://github.com/stasiq/frontend-project-44#readme"
+
+}
