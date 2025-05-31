@@ -19,9 +19,6 @@ deps-update:
 test-coverage:
 	npm test -- --coverage
 
-lint:
-	npx eslint .
-
 .PHONY: test
 
 all: build test
@@ -37,3 +34,9 @@ test:
 clean:
 	@echo "Очистка временных файлов"
 	rm -rf build
+
+lint:
+	npx eslint .
+
+lint-fix:
+	npx eslint . --fix
