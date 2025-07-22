@@ -14,12 +14,10 @@ function getRandomNumber() {
     return Math.floor(Math.random() * 100) + 1; // генерируем число от 1 до 100
 }
 
-// Функция проверки чётности
 function isEven(number) {
     return number % 2 === 0;
 }
 
-// Основная функция игры
 function playGame() {
     const number = getRandomNumber();
     const correctAnswer = isEven(number) ? 'yes' : 'no';
@@ -36,7 +34,6 @@ function playGame() {
     }
 }
 
-// Функция запуска игры
 function startGame() {
     console.log('Добро пожаловать в игру "Проверка на чётность"!');
     console.log('Правила: отвечайте "yes", если число чётное, или "no", если нечётное.');
@@ -54,6 +51,5 @@ function startGame() {
     console.log(`\nResult: ${score}/${totalRounds}`);
 }
 
-// Запуск игры
 startGame();
 
