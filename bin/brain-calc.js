@@ -39,8 +39,8 @@ function playGame() {
     const rounds = 3;
     let score = 0;
 
-    console.log('Welcome to the Brain Games!!');
-    console.log('Solve mathematical expressions and write down\n.');
+    console.log('Welcome to the Brain Games!');
+    console.log('Solve mathematical expressions and write down.');
 
     for (let i = 1; i <= rounds; i++) {
         const {expression, answer} = generateExpression();
